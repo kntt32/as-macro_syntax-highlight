@@ -1,0 +1,25 @@
+{
+  "name": "as-macro",
+  "displayName": "as-macro",
+  "description": "This is syntax highlight for as-macro",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "as-macro",
+      "aliases": ["as-macro", "as-macro"],
+      "extensions": ["amc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "as-macro",
+      "scopeName": "as-macro",
+      "path": "./syntaxes/as-macro.tmLanguage.json"
+    }]
+  }
+}
