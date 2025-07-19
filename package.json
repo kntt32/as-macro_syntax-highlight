@@ -18,7 +18,7 @@
     }],
     "grammars": [{
       "language": "as-macro",
-      "scopeName": "as-macro",
+      "scopeName": "source.asmacro",
       "path": "./syntaxes/as-macro.tmLanguage.json"
     }]
   }
